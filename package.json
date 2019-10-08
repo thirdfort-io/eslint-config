@@ -1,0 +1,21 @@
+{
+  "name": "@thirdfort.io/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirdfort-io/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Uditha Atukorala <ua@nuked.zone>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thirdfort-io/eslint-config/issues"
+  },
+  "homepage": "https://github.com/thirdfort-io/eslint-config#readme"
+}

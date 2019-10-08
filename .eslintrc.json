@@ -1,0 +1,57 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "arrow-parens": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"],
+    "brace-style": ["error", "1tbs", {
+      "allowSingleLine": true
+    }],
+    "indent": ["error", "tab", {
+      "SwitchCase": 1
+    }],
+    "key-spacing": ["error", {
+      "beforeColon": true,
+      "afterColon": true,
+      "mode": "minimum"
+    }],
+    "keyword-spacing": ["error", {
+      "before": true,
+      "after": true
+    }],
+    "linebreak-style": ["error", "unix"],
+    "max-statements-per-line": ["error", {
+      "max": 2
+    }],
+    "no-multi-spaces": ["error", {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }],
+    "no-multiple-empty-lines": ["error", {
+      "max": 3,
+      "maxEOF": 1
+    }],
+    "no-var": ["error"],
+    "object-curly-spacing": ["error", "always"],
+    "object-shorthand": ["error", "always"],
+    "prefer-const": ["error"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "semi-spacing": ["error", {
+      "before": false,
+      "after": false
+    }],
+    "space-in-parens": ["error", "always"],
+    "space-unary-ops": ["error", {
+      "words": true,
+      "nonwords": false,
+      "overrides": {
+        "typeof": false
+      }
+    }]
+  }
+}
