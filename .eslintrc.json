@@ -52,6 +52,26 @@
       "overrides": {
         "typeof": false
       }
+    }],
+    "sort-imports": ["error", {
+      "ignoreMemberSort": true,
+      "allowSeparatedGroups": true
+    }],
+    "array-bracket-spacing": ["error", "always"],
+    "space-before-function-paren": ["error", "always"],
+    "sort-keys": ["error", "asc", {
+      "natural": true
+    }],
+    "camelcase": ["error"],
+    "eol-last": ["error", "always"],
+    "spaced-comment": ["error", "always", {
+      "block": {
+        "exceptions": ["*"],
+        "balanced": true
+      }
+    }],
+    "capitalized-comments": ["error", "always", {
+      "ignoreConsecutiveComments": true
     }]
   }
 }
